@@ -1,0 +1,26 @@
+colonne          | Tipo dato              | ATTRIBUTI                          | INDICE
+Id               | BIGINT                 | UNIQUE, NOT NULL, AUTO INCREMENT   | PRIMARY KEY
+Numero_telaio    | VARCHAR(16)            | NOTNULL                            | UNIQUE
+Marca            | VARCHAR(30)            | NOT NULL                           |
+Modello          | VARCHAR(30)            | NOT NULL                           |
+Generazione      | VARCHAR(50)            | NOT NULL                           |
+Serie            | YEAR                   | NOT NULL                           |
+Modifiche        | VARCHAR()              | NULL                               |
+Type Carozzeria  | VARCHAR(30)            | NOT NULL                           |
+Numero Posti     | TINYINT                | NOT NULL                           |
+Larghezza        | TINYINT                | NOT NULL                           |
+Altezza          | TINYINT                | NOT NULL                           |
+Peso             | TINYINT                | NOT NULL                           |
+Tipo Motore      | VARCHAR(8)             | DEFAULT: "BENZINA"                 | 
+Cilindrata       | TINYINT                | NOT NULL                           |
+Potenza          | TINYINT                | NOT NULL                           |
+Cambio           | VARCHAR(10)            | DEFAULT: "MANUALE"                 |
+Velocità Massima | TINYINT                | NOT NULL                           |
+Accellerazione   | TINYINT                | NOT NULL                           |
+Freni Anteriori  | VARCHAR(20)            | NOT NULL                           |
+Freni Posteriori | VARCHAR(50)            | NOT NULL                           |
+Prezzo Mercato   | FLOAT(7,2)             | NOT NULL                           |
+prezzo_rivendita | FLOAT(7,2)             | NOT NULL                           |
+Finanziamento    | TINYINT(1)             | DEFAULT:'FALSE'                    |
+Disponibilità    | TINYINT(1)             | DEFAULT:'TRUE'                     |
+Nuovo/usato      | TINYINT(1)             | DEFUALT:  0('USATO')               |
