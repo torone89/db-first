@@ -1,4 +1,7 @@
-colonne          | Tipo dato              | ATTRIBUTI                          | INDICE
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe 
+in vendita da un concessionario.
+
+Colonne          | Tipo dato              | ATTRIBUTI                          | INDICE
 Id               | BIGINT                 | UNIQUE, NOT NULL, AUTO INCREMENT   | PRIMARY KEY
 Numero_telaio    | VARCHAR(16)            | NOTNULL                            | UNIQUE
 Marca            | VARCHAR(30)            | NOT NULL                           |
